@@ -1,0 +1,62 @@
+body {
+  background-image: url('old_moon.png')
+}
+
+.nav {
+  background-color: white;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li:hover{
+  background-color: #76A0AD
+}
+
+.jumbotron {
+  background-image:url('brownlee.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 100px;  
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  text-shadow: none;
+}
+
+.jumbotron p {
+  font-size: 25px;
+  color: #fff;
+  font-family: 'Merriweather', sans-serif;
+  text-shadow: none;
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+
+.learn-more a {
+  color: black;
+  font-family: 'Shift', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
